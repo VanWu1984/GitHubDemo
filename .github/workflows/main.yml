@@ -2,9 +2,9 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "just-test-autobuild" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "just-test-autobuild" ]
 
 jobs:
   build:
